@@ -133,7 +133,7 @@ export default function Index() {
   }
 
   return (
-    <div className="min-h-screen" style={{ background: "#0a0a0a" }}>
+    <div className="min-h-screen" style={{ background: "#1a1622" }}>
       {/* NAVBAR */}
       <nav className="glass sticky top-0 z-50 border-b" style={{ borderColor: "rgba(255,45,120,0.2)" }}>
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -362,7 +362,7 @@ function HomePage({
             <div
               key={f.title}
               className={`text-center p-5 rounded-2xl animate-fade-in stagger-${i + 1}`}
-              style={{ background: "rgba(255,45,120,0.04)", border: "1px solid rgba(255,45,120,0.1)" }}
+              style={{ background: "rgba(255,45,120,0.07)", border: "1px solid rgba(255,45,120,0.15)" }}
             >
               <div
                 className="w-10 h-10 rounded-xl flex items-center justify-center mx-auto mb-3"
@@ -662,7 +662,7 @@ function ProductCard({
   return (
     <div
       className={`card-hover rounded-2xl overflow-hidden flex flex-col animate-fade-in stagger-${delay}`}
-      style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)" }}
+      style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)" }}
     >
       <div className="relative overflow-hidden h-56">
         <img
